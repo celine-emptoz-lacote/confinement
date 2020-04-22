@@ -41,6 +41,10 @@
 
             <input type="submit" value="Modifier">
         </form>
+        <hr class="profil_hr">
+        <section>
+            <h1>Mes commandes</h1>
+        </section>
     </main>
 
     <footer>
