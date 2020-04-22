@@ -22,7 +22,7 @@
         <input type="text" id="address" name="" placeholder="Votre adresse" required>
             
         <div>
-            <input type="number" id="code_postal" name="" placeholder="Votre numéro de téléphone" required pattern="/^(([0-8][0-9])|(9[0-5]))[0-9]{3}$/">
+            <input type="number" id="code_postal" name="" placeholder="Votre code postal" required pattern="/^(([0-8][0-9])|(9[0-5]))[0-9]{3}$/">
             <input type="text" id="ville" name="" placeholder="Votre ville" required>
         </div>
   
