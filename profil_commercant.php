@@ -13,6 +13,7 @@
             <a href="#">Profil</a>
             <a href="#">Commerce</a>
             <a href="#">Panier</a>
+            <a href="#">Admin</a>
             <a href="#">Se déconnecter</a>
         </nav>
     </header>

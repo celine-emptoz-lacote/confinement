@@ -8,11 +8,12 @@
     box-sizing: border-box;
     
 }
-#index-body{
+body{
     margin: 0;
     padding: 0;
     text-align: center;
     font-family: "circular";
+    
 }
 /*Header*/
 header{
