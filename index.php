@@ -32,10 +32,19 @@
 
     <section class="offres">
         <h1>Nos offres</h1>
-        <div>
-            <img src="https://via.placeholder.com/300x200" alt="">
-            <img src="https://via.placeholder.com/300x200" alt="">
-            <img src="https://via.placeholder.com/300x200" alt="">
+        <div class="div_offre">
+            <div>
+                <img src="css/images/alimentaire.png" alt="">  
+                <p class="p1">Alimentaire</p>
+            </div>
+            <div>
+                <img src="css/images/diy.png" alt="">
+                <p class="p2">Bricolage</p>
+            </div>
+            <div>
+                <img src="css/images/textile.png" alt="">
+                <p class="p3">Textile</p>
+            </div>
         </div>
         <a href="#" class="offres_a">Acceder à la boutique</a>
     </section>
