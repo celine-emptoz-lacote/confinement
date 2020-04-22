@@ -4,7 +4,9 @@
 body{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
+/*Header*/
 header{
     height: 10vh;
     display: flex;
@@ -31,6 +33,7 @@ header nav a:hover{
     color: green;
     transform: scale(1.2);
 }
+/*MAIN*/
 #first-section{
     display: flex;
     justify-content: space-around;
@@ -61,5 +64,42 @@ header nav a:hover{
 }
 #image-shop{
     width: 50%;
+}
+
+
+/**** SECTION OFFRES ***/
+.offres h1 {
+    font-size: 40px;
+}
+
+.offres img {
+    margin: 1%;
+}
+.offres_a{
+    display: block;
+    width: 20%;
+    margin: 3% auto;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+/****** FOOTER *****/
+footer  {  
+    height: 20vh;
+    background-color: black;
+}
+
+.nav_footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 6% auto 0;
+    padding-top: 4%;
+}
+
+.nav_footer a {
+    text-decoration: none;
+    color: white;
 }
 
