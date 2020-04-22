@@ -10,8 +10,12 @@ body{
 h1{
     text-align: center;
 }
+<<<<<<< HEAD
+.category{
+=======
 
 #category{
+>>>>>>> 97d0bd63c7e49d72283f9d17daeae0005c8eb11f
     display: flex;
     flex-direction: row;
     justify-content: space-around;
