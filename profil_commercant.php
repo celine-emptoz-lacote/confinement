@@ -17,7 +17,7 @@
         </nav>
     </header>
     <main>
-        <h1>Inscription Professionnel</h1>
+        <h1>Mon Compte</h1>
         <form action="" method="" class="pro-form">
             <div>
                 <input  type="password" name="" id="" placeholder="Nom" required>
@@ -58,6 +58,10 @@
         
 
         </form>
+        <hr class="profil_hr">
+        <section>
+            <h1>Commandes clients<h1>
+        </section>
     </main>
     
     <footer>

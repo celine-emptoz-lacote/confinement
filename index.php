@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-<<<<<<< HEAD
       
-=======
->>>>>>> 6059eb20442387712eab84e9408031bc9d18deb0
     <title>Accueil</title>
 </head>
 <body id="index-body">
@@ -29,7 +26,7 @@
                 <a href="# ">Se connecter</a>
             </section>
             <section id="index-image-shop">
-                <img src="css/images/marseilleshop.png" alt="Photo illustration">
+                <img src="src/images/marseilleshop.png" alt="Photo illustration">
             </section>
         </section>
     
