@@ -1,13 +1,16 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
     padding: 0;
 }
+
 h1{
     text-align: center;
 }
+
 #category{
     display: flex;
     flex-direction: row;
@@ -16,10 +19,10 @@ h1{
     height: 50vh;
     background: lightsalmon;
 }
+
 .shopkeeper{
     padding: 2%;
     background: lightgrey;
     margin: 1%;
     width: 100%;
-    
 }
