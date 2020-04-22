@@ -19,23 +19,26 @@
     <main>
         <h1>Inscription pour particulier</h1>
         <form action="" method="POST">
-            
+            <div>
+                <input type="text" name="" placeholder="Votre speudo">
+                <input type="password" name="" placeholder="Votre mot de passe" size = 15 pattern=".{6,}" title="Le mot de passe doit contenir au moins 6 caractères, 1 lettre, 1 chiffre, et 1 caractère spécial.">
+            </div>
             <div >
-                <input type="text" id="firstname" name="" placeholder="Votre prénom" required>
-                <input type="text" id="name" name="" placeholder="Votre nom" required>
+                <input type="text"  name="" placeholder="Votre prénom" required>
+                <input type="text"  name="" placeholder="Votre nom" required>
             </div>
             <div> 
-                <input type="email" id="email" name="" placeholder="Votre email" required>
-                <input type="email" id="confirmation_mail" placeholder="Confirmer votre email" name="" required>
+                <input type="email"  name="" placeholder="Votre email" required>
+                <input type="email"  placeholder="Confirmer votre email" name="" required>
             </div>
-            <input type="text" id="address" name="" placeholder="Votre adresse" required>
+            <input type="text"  name="" placeholder="Votre adresse" required>
                 
             <div>
-                <input type="number" id="code_postal" name="" placeholder="Votre code postal" required pattern="/^(([0-8][0-9])|(9[0-5]))[0-9]{3}$/">
-                <input type="text" id="ville" name="" placeholder="Votre ville" required>
+                <input type="number"  name="" placeholder="Votre code postal" required pattern="/^(([0-8][0-9])|(9[0-5]))[0-9]{3}$/">
+                <input type="text"  name="" placeholder="Votre ville" required>
             </div>
     
-            <input type="tel" id="telephone" name="" placeholder="06XXXXXXXX">
+            <input type="tel"  name="" placeholder="06XXXXXXXX">
             
 
             <input type="submit">

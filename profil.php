@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Connexion</title>
+    <title>Mon profil</title>
 </head>
 <body>
     
@@ -20,7 +20,10 @@
     <main>
         <h1>Mon compte</h1>
     <form action="" method="POST">
-            
+            <div>
+                <input type="text" name="" placeholder="Votre speudo">
+                <input type="password" name="" placeholder="Votre mot de passe" size = 15 pattern=".{6,}" title="Le mot de passe doit contenir au moins 6 caractères, 1 lettre, 1 chiffre, et 1 caractère spécial.">
+            </div>
             <div >
                 <input type="text" id="firstname" name="" placeholder="Votre prénom" required>
                 <input type="text" id="name" name="" placeholder="Votre nom" required>
@@ -37,8 +40,6 @@
             </div>
     
             <input type="tel" id="telephone" name="" placeholder="06XXXXXXXX">
-            
-
             <input type="submit" value="Modifier">
         </form>
         <hr class="profil_hr">
