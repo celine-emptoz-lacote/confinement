@@ -33,9 +33,9 @@
     <section class="offres">
         <h1>Nos offres</h1>
         <div>
-            <a href=""><img src="https://via.placeholder.com/300x200" alt=""></a>
-            <a href=""><img src="https://via.placeholder.com/300x200" alt=""></a>
-            <a href=""><img src="https://via.placeholder.com/300x200" alt=""></a>
+            <img src="https://via.placeholder.com/300x200" alt="">
+            <img src="https://via.placeholder.com/300x200" alt="">
+            <img src="https://via.placeholder.com/300x200" alt="">
         </div>
         <a href="#" class="offres_a">Acceder à la boutique</a>
     </section>
