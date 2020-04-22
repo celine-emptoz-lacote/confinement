@@ -72,9 +72,7 @@ header nav a:hover{
     font-size: 40px;
 }
 
-.offres img {
-    margin: 1%;
-}
+
 .offres_a{
     display: block;
     width: 20%;
@@ -83,6 +81,35 @@ header nav a:hover{
     background-color: black;
     color: white;
     text-decoration: none;
+}
+.div_offre {
+    display: flex;
+    position: relative;
+}
+
+.div_offre IMG {
+    width: 90%;
+}
+
+.div_offre div p {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+}
+
+.p1 {
+    top: 30% ;
+    left: 10%;
+}
+
+.p2 {
+    top: 30% ;
+    left: 46%;
+}
+
+.p3 {
+    top: 30% ;
+    left: 80%;
 }
 
 /****** FOOTER *****/
