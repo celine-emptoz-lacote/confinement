@@ -9,8 +9,11 @@ header{
     background: black;
     height: 10vh;
 }
+nav{
+    width: 70%;
+    padding-top: 2%;
+}
 header nav{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
