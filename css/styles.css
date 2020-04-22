@@ -1,13 +1,7 @@
 /**** INDEX ****/
-@font-face{
-    font-family: "CircularStd";
-    src: url("/css/font/CircularStd-Black.ttf") ;
-    font-weight: normal;
-    font-style: normal;
-}
 *{
     box-sizing: border-box;
-    font-family: "CircularStd";
+    
 }
 #index-body{
     margin: 0;
