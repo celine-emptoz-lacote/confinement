@@ -17,6 +17,33 @@
             <a href="#">Se déconnecter</a>
         </nav>
     </header>
-    
+    <main>
+
+
+
+
+
+
+    <section class="offres">
+        <h1>Nos offres</h1>
+        <div>
+            <a href=""><img src="https://via.placeholder.com/300x200" alt=""></a>
+            <a href=""><img src="https://via.placeholder.com/300x200" alt=""></a>
+            <a href=""><img src="https://via.placeholder.com/300x200" alt=""></a>
+        </div>
+        <a href="#" class="offres_a">Acceder à la boutique</a>
+    </section>
+    </main>
+
+    <footer>
+        <nav class="nav_footer">
+            <a href="#">Accueil</a>
+            <a href="#">Profil</a>
+            <a href="#">Commerces</a>
+            <a href="#">Panier</a>
+            <a href="#">Admin</a>
+            <a href="#">Se déconnecter</a>
+        </nav>
+    </footer>
 </body>
 </html>
