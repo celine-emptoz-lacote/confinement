@@ -20,8 +20,8 @@
         <h1>Inscription pour particulier</h1>
         <form action="" method="POST">
             <div>
-                <input type="text" name="" placeholder="Votre speudo">
-                <input type="password" name="" placeholder="Votre mot de passe" size = 15 pattern=".{6,}" title="Le mot de passe doit contenir au moins 6 caractères, 1 lettre, 1 chiffre, et 1 caractère spécial.">
+                <input type="text" name="" placeholder="Votre speudo" required>
+                <input type="password" name="" placeholder="Votre mot de passe" size = 15 pattern=".{6,}" title="Le mot de passe doit contenir au moins 6 caractères, 1 lettre, 1 chiffre, et 1 caractère spécial." required>
             </div>
             <div >
                 <input type="text"  name="" placeholder="Votre prénom" required>
