@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+<<<<<<< HEAD
       
+=======
+>>>>>>> 6059eb20442387712eab84e9408031bc9d18deb0
     <title>Accueil</title>
 </head>
 <body id="index-body">
@@ -35,15 +38,15 @@
         <h1>Nos offres</h1>
         <div class="div_offre">
             <div>
-                <img src="css/images/alimentaire.png" alt="">  
+                <img src="src/images/alimentaire.png" alt="">  
                 <p class="p1">Alimentaire</p>
             </div>
             <div>
-                <img src="css/images/diy.png" alt="">
+                <img src="src/images/diy.png" alt="">
                 <p class="p2">Bricolage</p>
             </div>
             <div>
-                <img src="css/images/textile.png" alt="">
+                <img src="src/images/textile.png" alt="">
                 <p class="p3">Textile</p>
             </div>
         </div>

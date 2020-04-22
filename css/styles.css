@@ -190,3 +190,16 @@ input[type="submit"] {
 }
 /**Inscription Commercant**/
 
+
+/****** profil ***/
+.profil_hr {
+    width: 70%;
+    margin: 2% auto;
+    border: 1px solid black;
+}
+
+/****** CONNEXION ****/
+.connexion_icon {
+    width: 10%;
+    margin: 5% auto;
+}
