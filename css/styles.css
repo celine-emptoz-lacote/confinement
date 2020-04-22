@@ -1,4 +1,9 @@
 /**** INDEX ****/
+@font-face {
+    font-family: "circular";
+    src: url(../src/font/CircularStd-Black.ttf);
+    
+}
 *{
     box-sizing: border-box;
     
@@ -7,7 +12,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    
+    font-family: "circular";
 }
 /*Header*/
 header{
@@ -199,7 +204,48 @@ input[type="submit"] {
 }
 
 /****** CONNEXION ****/
+
+.connexion_fieldset {
+    padding: 2%;
+    background-color: rgb(116, 116, 116);
+    border: 1px solid black;
+}
+
+.connexion_legend {
+    padding: 1%;
+    text-align: left;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
 .connexion_icon {
     width: 10%;
-    margin: 5% auto;
+    margin: 5% auto 2%;
 }
+
+.connexion-input {
+    display: block;
+    width: 50%;
+    margin: 1% auto;
+}
+.connexion_p , .connexion_p2 {
+    margin: 0.5%;
+}
+
+.connexion_p2 {
+    display: inline-block;
+    margin: 1%;
+}
+
+.connexion_p2 a {
+    color: gray;
+    text-decoration: none;
+}
+
+.connexion_p2 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
