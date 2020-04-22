@@ -1,12 +1,19 @@
 /**** INDEX ****/
-
+@font-face{
+    font-family: "CircularStd";
+    src: url("/css/font/CircularStd-Black.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     box-sizing: border-box;
+    font-family: "CircularStd";
 }
-body{
+#index-body{
     margin: 0;
     padding: 0;
     text-align: center;
+    
 }
 /*Header*/
 header{
@@ -64,8 +71,14 @@ header nav a:hover{
     text-align: center;
 
 }
-#image-shop{
+#index-image-shop{
     width: 50%;
+}
+#index-image-shop img{
+    width: 100%;
+    
+
+
 }
 
 
@@ -133,20 +146,12 @@ footer  {
 }
 
 /****** PAGE CATEGORIE ******/
-*{
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0;
-    padding: 0;
-}
 
 h1{
     text-align: center;
 }
 
-#category{
+.category{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -189,3 +194,5 @@ form input {
 input[type="submit"] {
     width: 30%;
 }
+/**Inscription Commercant**/
+

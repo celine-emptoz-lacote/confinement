@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/styles.css">
+      
     <title>Accueil</title>
 </head>
-<body>
+<body id="index-body">
     
     <header>
         <nav>
@@ -21,11 +22,11 @@
         <section id="first-section"> 
             <section id="connect">
                 <h1>Bienvenue sur </h1>
-                <h1 id="shop-name"> Marseille'shop</h1>
+                <h1 id="index-shop-name"> Marseille'shop</h1>
                 <a href="# ">Se connecter</a>
             </section>
-            <section id="image-shop">
-                <img src="https://picsum.photos/300/300" alt="Photo illustration">
+            <section id="index-image-shop">
+                <img src="css/images/marseilleshop.png" alt="Photo illustration">
             </section>
         </section>
     

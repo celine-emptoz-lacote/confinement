@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription particuliers</title>
-    <link href="css/inscription.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
 </head>
 <body>
     <header>
