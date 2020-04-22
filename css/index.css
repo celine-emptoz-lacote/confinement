@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: black;
+    height: 10vh;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

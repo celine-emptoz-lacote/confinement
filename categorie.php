@@ -10,7 +10,7 @@
     <header></header>
     <main>
     <h1>Alimentaire</h1>
-        <section id="category">
+        <section class="category">
             <section class="shopkeeper">
                 <img src="" alt="Photo commerçant">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia in accusamus magni quam porro illum id voluptatibus accusantium sint a repellat, consequatur molestiae dolorem ad nesciunt earum magnam? Laborum, animi!</p>
