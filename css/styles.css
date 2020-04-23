@@ -378,5 +378,13 @@ input[type="submit"] {
     text-decoration: underline;
 }
 
+/**Répertoire commerçant**/
+
+.list-shop{
+    display: flex;
 
 
+}
+.list-shop img{
+    
+}
