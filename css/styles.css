@@ -308,3 +308,65 @@ input[type="submit"] {
     color: red;
     text-decoration: underline;
 }
+
+/**** PANIER ******/
+.panier_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eef2f3;
+    text-align: left;
+}
+
+.panier_section img {
+    width: 40%;
+}
+
+.panier_section h1 {
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+.panier_section p {
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.panier_article {
+    width: 80%;
+    margin: 4% auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.panier_article h2 {
+    width: 66%;
+    margin: auto;
+}
+
+.panier_article img {
+    width: 30%;
+}
+
+.panier_span {
+    color: red;
+}
+
+.panier_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panier_buttons button , .panier_buttons p{
+    margin: 1%;
+}
+
+.panier_article input {
+    width: 45%;
+    margin-top: 5%;
+}
+
+.panier_total input {
+    width: 20%;
+}
