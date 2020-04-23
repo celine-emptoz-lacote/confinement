@@ -18,19 +18,25 @@
         </nav>
     </header>
     <main>
-        <img class="connexion_icon" src="src/images/icon.png" alt="icon">
+        <div class="connexion_div">
+            <div>
+            <h1>Se connecter</h1>
+                <form class="connexion_form" action="">
+          
+                    <input class="connexion-input" type="text" name="" placeholder=" Identifiant" required >
+                    <input class="connexion-input" type="password" name="" placeholder=" Mot de passe" required>
+                    <input class="connexion-input" type="submit">
 
-        <form  action="">
-          <fieldset class="connexion_fieldset">
-                <legend class="connexion_legend">Me connecter</legend>
-                <input class="connexion-input" type="text" name="" placeholder="Votre speudo" required >
-                <input class="connexion-input" type="password" name="" placeholder="Votre mot de passe" required>
-                <input class="connexion-input" type="submit">
-        </fieldset>
-      </form>
-        <p class="connexion_p">Vous n'avez pas de compte ?</p>
-        <p class="connexion_p2">Vous etes un particulier <a href="inscription.php">Cliquer ici</a></p>
-        <p class="connexion_p2">Vous etes un particulier <a href="inscription_commercant.php">Cliquer ici</a></p>
+                </form>
+                <p class="connexion_p">Vous n'avez pas de compte ?</p>
+                <p class="connexion_p2">Vous etes un particulier <a href="inscription.php">Cliquer ici</a></p>
+                <p class="connexion_p2">Vous etes un particulier <a href="inscription_commercant.php">Cliquer ici</a></p>
+            </div>
+           
+            <img src="src/images/marseilleshop.png" alt="logo">
+        </div>
+
+       
     </main>
 
     <footer>
