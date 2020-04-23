@@ -399,6 +399,63 @@ input[type="submit"] {
 }
 
 .page_commercant_section_produits div button:hover {
-    background: rgba(0, 0, 0, 0.507);
-    
+    background: rgba(0, 0, 0, 0.507);  
+}
+
+/**** ADMIN COMMERCANT *****/
+.admin_commercant_h1 {
+    margin: 6% auto;
+}
+.admin_commercant_table {
+    width: 90%;
+    margin: 3% auto;
+    border-collapse: collapse;
+    background-color:   #eef2f3;
+}
+
+.admin_commercant_table thead {
+    background-color: #c2c6c7;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.admin_commercant_table td {
+    width: 20%;
+    padding: 1.5%;
+}
+
+.admin_commercant_table img {
+    width: 20%;
+}
+
+.admin_add::before {
+    font-family: "fontello";
+    content: "\e800";
+    color: green;
+}
+
+.admin_delet::before {
+    font-family: "fontello";
+    content: '\e803';
+    color: red;
+}
+
+.admin_add , .admin_delet {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+}
+
+.admin_commercant_form {
+    width: 60%;
+    margin: auto;
+    background-color: #eef2f3;
+    padding: 2%;
+}
+
+.admin_commercant_form input {
+    width: 50%; 
+}
+
+.admin_commercant_form legend {
+    margin: 2% auto;
 }
