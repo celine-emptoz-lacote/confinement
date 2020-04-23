@@ -23,7 +23,7 @@
             <h1>Se connecter</h1>
                 <form class="connexion_form" action="">
           
-                    <input class="connexion-input" type="text" name="" placeholder=" Identifiant" required >
+                    <input class="connexion-input" type="text" name="" placeholder="Votre mail" required >
                     <input class="connexion-input" type="password" name="" placeholder=" Mot de passe" required>
                     <input class="connexion-input" type="submit">
 
