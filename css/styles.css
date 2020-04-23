@@ -196,7 +196,6 @@ input {
     margin: 1%;
 }
 
-
 form div input {
     width: 40%;
 }
@@ -209,7 +208,6 @@ input[type="submit"] {
     width: 30%;
     background-color: white;
     border: 1px solid black;
-
 }
 
 /****** profil ***/
