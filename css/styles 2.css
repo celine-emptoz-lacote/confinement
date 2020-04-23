@@ -1,0 +1,665 @@
+/**** INDEX ****/
+@font-face {
+    font-family: "circular";
+    src: url(../src/font/CircularStd-Black.ttf);
+    
+}
+*{
+    box-sizing: border-box;
+    
+}
+/*Scrollbar*/
+body::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: white;
+ }
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: whitesmoke;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "circular";
+    
+}
+/*Header*/
+header{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    padding: 2%;
+    margin-left: auto;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   
+}
+
+header nav a:hover{
+    color: green;
+    transform: scale(1.2);
+}
+/*MAIN*/
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    background: #eef2f3;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 1em;
+}
+.connect h1{
+    margin: 0;
+    font-size: 2em;
+
+}
+.connect a{
+    width: 40%;
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 2% 4%;
+    margin-top: 5%;
+    text-align: center;
+
+}
+.index-image-shop{
+    width: 50%;
+}
+.index-image-shop img{
+    width: 100%;
+    
+
+
+}
+
+
+/**** SECTION OFFRES ***/
+.offres h1 {
+    font-size: 40px;
+}
+
+
+.offres_a{
+    display: block;
+    width: 20%;
+    margin: 3% auto;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.div_offre {
+    display: flex;
+    position: relative;
+}
+
+.div_offre IMG {
+    width: 90%;
+}
+
+.div_offre div p {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+}
+
+.p1 {
+    top: 30% ;
+    left: 10%;
+}
+
+.p2 {
+    top: 30% ;
+    left: 46%;
+}
+
+.p3 {
+    top: 30% ;
+    left: 80%;
+}
+
+/****** FOOTER *****/
+footer  {  
+    height: 20vh;
+    background-color: black;
+}
+
+.nav_footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 6% auto 0;
+    padding-top: 4%;
+}
+
+.nav_footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/****** PAGE CATEGORIE ******/
+
+.category-head h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+.category-head{
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.category-head p{
+    font-size: 1em;
+    margin: 0;
+    
+    
+
+}
+.category-image{
+    width: 50%;
+    padding: 2%;
+    position: relative;
+}
+.category-description{
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+.category-description p{
+    text-align: start;
+}
+.category-description2{
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+.category-description2 p{
+    text-align: end;
+}
+.category-description a{
+    border: 1px solid black;
+    padding: 0.5em 1em ;
+    margin-top: 1em;
+    width: 40%;
+}
+.category-description2 a{
+    border: 1px solid black;
+    padding: 0.5em 1em ;
+    margin-top: 1em;
+    margin-left: auto;
+    width: 40%;
+}
+.shopkeeper{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 1%;
+    width: 100%;
+}
+.shopkeeper2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 1%;
+    width: 100%;
+}
+.category-image p{
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    top:30%;
+    left: 30%;
+}
+.category-image img{
+    width: 100%;
+}
+
+/**** INSCRIPTION ****/
+.inscription-body {
+    text-align: center;
+    background-color: #eef2f3;
+}
+
+.inscription-body header {
+    background-color: white;
+}
+
+.inscription-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inscription-main-div {
+    width: 50%; 
+}
+
+.inscription-main img {
+    width: 40%;
+    margin-bottom: -6%;
+}
+
+input {
+    height: 30px;
+    margin: 1%;
+}
+
+form div input {
+    width: 40%;
+}
+
+form input {
+    width: 82.5%;
+}
+
+input[type="submit"] {
+    width: 30%;
+    background-color: white;
+    border: 1px solid black;
+}
+/**Inscription commerçant**/
+
+.main-pro-form{
+    background: #eef2f3;
+    height: 100%;
+}
+.pro-form{
+    margin: auto;
+    width: 80%;
+    padding: 1em;
+
+}
+.pro-form input{
+    border: 1px solid black;
+
+}
+.valider{
+    padding: 2%;
+    width: 50%;
+    margin-top: 2%;
+    background: white;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+/****** profil ***/
+
+.profil_main_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eef2f3;
+    text-align: left;
+}
+
+.profil_main_header div {
+   width: 40%; 
+}
+
+.profil_main_header div h1 {
+    text-align: left; 
+    font-size: 50px;
+ }
+
+.profil_main_header img {
+    width: 50%;
+}
+
+.profil_section {
+    margin: 6% auto;
+}
+
+.profil-form input{
+    display: block;
+    width: 20%;
+    margin: 2% auto;
+}
+/**Profil commerçant**/
+.profil-pro h2{
+    text-align: start;
+
+}
+.profil_table2 {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.profil_table2 thead tr {
+    background-color: #c2c6c7;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.profil_table2 tbody {
+    background-color: #eef2f3;
+}
+.profil_table2  td {
+    padding: 1.5%;
+}
+
+
+.profil_table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.profil_table thead tr {
+    background-color: #c2c6c7;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.profil_table tbody {
+    background-color: #eef2f3;
+}
+.profil_table  td {
+    padding: 1.5%;
+}
+
+/****** CONNEXION ****/
+.connexion_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -6%;
+    background-color: #eef2f3;
+}
+
+.connexion_div div {
+    width: 50%;
+}
+.connexion_div img {
+    width: 40%;
+}
+
+.connexion_form {
+    padding:2%;
+}
+.connexion-input {
+    display: block;
+    width: 50%;
+    margin: 1% auto;
+}
+
+.connexion_form input[type="submit"] {
+    margin-top: 5%;
+}
+
+.connexion_p  {
+    margin: 1%;
+}
+
+.connexion_p2 {
+    margin: 0;
+}
+
+.connexion_p2 a {
+    color: gray;
+    text-decoration: none;
+}
+
+.connexion_p2 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/**Répertoire commerçant**/
+.repertoire-shop{
+    width: 80%;
+    margin: auto;
+}
+.list-shop{
+    display: flex;
+
+}
+.repertoire-image{
+    width:30%
+}
+.list-shop img{
+    width: 100%;
+
+}
+.repertoire-presentation{
+    width: 70%;
+    text-align: start;
+}
+/**Validation panier**/
+.main-validation{
+    width: 80%;
+    margin: auto;
+}
+.validation-panier{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+}
+.validation-title2{
+    width: 10%;
+}
+
+.validation-image{
+    width: 20%;
+}
+.validation-image img{
+    width: 100%;
+}
+.validation-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+.validation-address{
+    display: flex;
+    justify-content: space-around;
+}
+.validation-title{
+    width: 40%;
+}
+.customer-address, .pay{
+    width: 60%;
+}
+
+.customer-address ul{
+    list-style-type: none;
+}
+.customer-address a {
+    text-decoration: none;
+}
+.validation-pay{
+    display: flex;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+}
+/**** PANIER ******/
+.panier_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eef2f3;
+    text-align: left;
+}
+
+.panier_section img {
+    width: 40%;
+}
+
+.panier_section h1 {
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+.panier_section p {
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.panier_article {
+    width: 80%;
+    margin: 4% auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.panier_article h2 {
+    width: 66%;
+    margin: auto;
+}
+
+.panier_article img {
+    width: 30%;
+}
+
+.panier_span {
+    color: red;
+}
+
+.panier_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panier_buttons button , .panier_buttons p{
+    margin: 1%;
+}
+
+.panier_article input {
+    width: 45%;
+    margin-top: 5%;
+}
+
+.panier_total input {
+    width: 20%;
+}
+
+/**** PAGE COMMERCANT ****/
+
+.page_commercant_h1 {
+    margin: 5% auto;
+}
+.page_commercant_section_produits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+
+.page_commercant_section_produits div {
+    width: 30%;
+}
+
+.page_commercant_section_produits div IMG{
+    width: 100%;
+}
+
+.page_commercant_section_produits div button {
+    width: 50%;
+    padding: 2%;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.page_commercant_section_produits div button:hover {
+    background: rgba(0, 0, 0, 0.507);  
+}
+
+/**** ADMIN COMMERCANT *****/
+.admin_commercant_h1 {
+    margin: 6% auto;
+}
+.admin_commercant_table {
+    width: 90%;
+    margin: 3% auto;
+    border-collapse: collapse;
+    background-color:   #eef2f3;
+}
+
+.admin_commercant_table thead {
+    background-color: #c2c6c7;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.admin_commercant_table td {
+    width: 20%;
+    padding: 1.5%;
+}
+
+.admin_commercant_table img {
+    width: 20%;
+}
+
+.admin_add::before {
+    font-family: "fontello";
+    content: "\e800";
+    color: green;
+}
+
+.admin_delet::before {
+    font-family: "fontello";
+    content: '\e803';
+    color: red;
+}
+
+.admin_add , .admin_delet {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+}
+
+.admin_commercant_form {
+    width: 60%;
+    margin: auto;
+    background-color: #eef2f3;
+    padding: 2%;
+}
+
+.admin_commercant_form input {
+    width: 50%; 
+}
+
+.admin_commercant_form legend {
+    margin: 2% auto;
+}

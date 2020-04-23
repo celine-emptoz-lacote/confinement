@@ -1,29 +1,32 @@
 <?php
 	session_start();
+	
+$_SESSION['login'] = test;
+$_SESSION['password'] = test;
+	
 	if(isset($_SESSION['login']) || isset($_SESSION['password'])){}
 	else
 	{
 		header('Location: index.php');
 	}
+	include('functions/function_profil.php');
+	$var = new profil;
 ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Inscription Professionnel</title>
+    <title>Profil Professionnel</title>
 </head>
+	
 <body>
     <header>
-		<nav>
-			<a href="index.php">Accueil</a>
-			<a href="profil.php">Profil</a>
-			<a href="repertoire_commercant.php">Commerce</a>
-			<a href="panier">Panier</a>
-			<a href="admin_commercant.php">Admin</a>
-			<a href="#">Se déconnecter</a>
-		</nav>
+		<header>
+			<?php include('header.php'); ?>
+		</header>
 	</header>
     <main class="profil-pro">
     <section class="first-section"> 
@@ -39,6 +42,9 @@
 
         <h1>Mon Compte</h1>
         <section>
+			<?php 
+				
+			?>
             <form action="" method="" class="pro-form">
                 <div>
                     <input  type="text" name="" id="" placeholder="Nom" required>
