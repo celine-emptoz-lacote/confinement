@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le :  jeu. 23 avr. 2020 à 15:16
+-- Généré le :  jeu. 23 avr. 2020 à 15:40
 -- Version du serveur :  5.7.26
 -- Version de PHP :  7.4.2
 
@@ -65,8 +65,16 @@ CREATE TABLE `commande_produit` (
 
 CREATE TABLE `droit` (
   `id` int(11) NOT NULL,
-  `nom` int(11) NOT NULL
+  `nom` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `droit`
+--
+
+INSERT INTO `droit` (`id`, `nom`) VALUES
+(1, 'standard'),
+(50, 'commercant');
 
 -- --------------------------------------------------------
 
@@ -218,7 +226,7 @@ ALTER TABLE `commande_produit`
 -- AUTO_INCREMENT pour la table `droit`
 --
 ALTER TABLE `droit`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT pour la table `panier`
