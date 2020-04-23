@@ -60,12 +60,12 @@ header nav a:hover{
     transform: scale(1.2);
 }
 /*MAIN*/
-#first-section{
+.first-section{
     display: flex;
     justify-content: space-around;
-    padding: 5%;
+    
 }
-#connect{
+.connect{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,12 +73,12 @@ header nav a:hover{
     width: 50%;
     padding: 1em;
 }
-#connect h1{
+.connect h1{
     margin: 0;
     font-size: 2em;
 
 }
-#connect a{
+.connect a{
     width: 40%;
     text-decoration: none;
     background: black;
@@ -88,10 +88,10 @@ header nav a:hover{
     text-align: center;
 
 }
-#index-image-shop{
+.index-image-shop{
     width: 50%;
 }
-#index-image-shop img{
+.index-image-shop img{
     width: 100%;
     
 
@@ -275,7 +275,31 @@ form input {
 input[type="submit"] {
     width: 30%;
 }
+/**Inscription commerçant**/
 
+.main-pro-form{
+    background: #eef2f3;
+    height: 100%;
+}
+.pro-form{
+    margin: auto;
+    width: 80%;
+    padding: 1em;
+
+}
+.pro-form input{
+    border: 1px solid black;
+
+}
+.valider{
+    padding: 2%;
+    width: 50%;
+    margin-top: 2%;
+    background: white;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
 
 
 /****** profil ***/
@@ -284,6 +308,31 @@ input[type="submit"] {
     margin: 2% auto;
     border: 1px solid black;
 }
+/**Profil commerçant**/
+.profil-pro h2{
+    text-align: start;
+
+}
+.profil_table2 {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.profil_table2 thead tr {
+    background-color: #c2c6c7;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.profil_table2 tbody {
+    background-color: #eef2f3;
+}
+.profil_table2  td {
+    padding: 1.5%;
+}
+
 
 /****** CONNEXION ****/
 

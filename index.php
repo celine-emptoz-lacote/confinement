@@ -20,13 +20,13 @@
         </nav>
     </header>
     <main>
-        <section id="first-section"> 
-            <section id="connect">
+        <section class="first-section"> 
+            <section class="connect">
                 <h1>Bienvenue sur </h1>
-                <h1 id="index-shop-name"> Marseille'shop</h1>
+                <h1 class="index-shop-name"> Marseille'shop</h1>
                 <a href="# ">Se connecter</a>
             </section>
-            <section id="index-image-shop">
+            <section class="index-image-shop">
                 <img src="src/images/marseilleshop.png" alt="Photo illustration">
             </section>
         </section>
