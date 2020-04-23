@@ -232,9 +232,11 @@ input[type="submit"] {
 .profil_main_header img {
     width: 50%;
 }
+
 .profil_section {
     margin: 6% auto;
 }
+
 .profil-form input{
     display: block;
     width: 20%;
