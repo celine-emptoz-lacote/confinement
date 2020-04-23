@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,15 +12,9 @@
 </head>
 <body>
     
-    <header>
-        <nav>
-            <a href="index.php">Accueil</a>
-            <a href="profil.php">Profil</a>
-            <a href="repertoire_commercant.php">Commerce</a>
-            <a href="panier.php">Panier</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </header>
+	<header>
+		<?php include('header.php'); ?>
+	</header>
     <main>
         <section class="panier_section">
             <div>
@@ -26,12 +24,28 @@
             <img src="src/images/marseilleshop.png" alt="">
         </section>
 
-        <section >
+        <section>
+		<?php
+			
+			$connexion = mysqli_connect('localhost','root','','confinement');
+			$panier = "SELECT *  FROM panier WHERE id='".$_SESSION['id']."'";
+			$reg = mysqli_query($connexion, $panier);
+			$resultat = mysqli_fetch_all($reg);
+		
+			foreach($resultat as $articles)
+			{
+				$produit = "SELECT *  FROM produit WHERE id= $articles[2]";
+				$reg2 = mysqli_query($connexion, $produit);
+				$resultat2 = mysqli_fetch_all($reg2);
+		
+				foreach($resultat2 as $articles2)
+				{
+		?>
             <div class="panier_article">
-                <img src="src/images/boeuf1.jpg" alt="Morceau de boeuf">
+                <img src="<?php echo $articles2[4],$articles2[5]?>" alt="Morceau de boeuf">
                 <div>
-                    <h2>Le boeuf charolais fermier "label rouge"</h2>
-                    <p> <em><span class="panier_span"> 30€ </span> par kilo </em></p>
+                    <h2><?php echo $articles2[2]?></h2>
+                    <p> <em><span class="panier_span"><?php echo $articles2[3]?>€ </span> par kilo </em></p>
                     <div class="panier_buttons">
                         <button>-</button>
                         <p>0</p>
@@ -42,9 +56,13 @@
             </div>   
         </section>
         <section class="panier_total">
-            <p>Prix total : <span class="panier_span">30€</span></p>
+            <p>Prix total : <span class="panier_span"><?php echo $articles2[3]?>€</span></p>
             <input type="submit" value="Valider le panier">
         </section>
+		 <?php
+				}
+			}
+		?>
     </main>
 
     <footer>

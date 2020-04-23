@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,16 +12,9 @@
 </head>
 <body id="index-body">
     
-    <header>
-		<nav>
-			<a href="index.php">Accueil</a>
-			<a href="profil.php">Profil</a>
-			<a href="repertoire_commercant.php">Commerce</a>
-			<a href="panier">Panier</a>
-			<a href="admin_commercant.php">Admin</a>
-			<a href="#">Se déconnecter</a>
-		</nav>
-	</header>
+		<header>
+			<?php include('header.php'); ?>
+		</header>
     <main>
         <section class="first-section"> 
             <section class="connect">
@@ -31,42 +27,41 @@
             </section>
             
         </section>
-        <h1>Commerces Alimentaire</h1>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		  <h1>Commerces Alimentaires</h1>
+		<?php
+			
+			$connexion = mysqli_connect('localhost','root','','confinement');
+			$categories = "SELECT *  FROM utilisateurs_commercants";
+			$reg = mysqli_query($connexion, $categories);
+			$resultat = mysqli_fetch_all($reg);
+		
+			foreach($resultat as $articles)
+			{
+		?>
         <section class="repertoire-shop">
             <section class="list-shop">
                 <div class="repertoire-image">
-                    <img src="src/images/images-boutiques/beef-1814638_1280.webp" alt="Photo boucherie">
+                    <img src="<?php echo $articles[16],$articles[17]?>" alt="Photo boucherie">
                 </div>
                 <div class="repertoire-presentation">
-                    <h2>Boucherie Jacques</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, temporibus neque commodi accusamus dolores corrupti quaerat recusandae, modi dolorum earum alias, corporis natus ab consectetur numquam maxime non! Inventore, ipsam!</p>
+                    <h2><?php echo $articles[3]?></h2>
+                    <p><?php echo $articles[18]?></p>
                 <div>
+					<br/>
+					<br/>
+					<a class="connexion-input" href="page_commercant.php?id=<?php echo $articles[0] ?>">Voir la boutique</a>
             </section>
-            <section class="list-shop">
-                <div class="repertoire-image">
-                    <img src="src/images/images-boutiques/Kaas.jpeg" alt="Photo boucherie">
-                </div>
-                <div class="repertoire-presentation">
-                    <h2>Fromagerie</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, temporibus neque commodi accusamus dolores corrupti quaerat recusandae, modi dolorum earum alias, corporis natus ab consectetur numquam maxime non! Inventore, ipsam!</p>
-                <div>
-            </section>
-            <section class="list-shop">
-                <div class="repertoire-image">
-                    <img src="src/images/images-boutiques/corbeille-de-fruits.jpg" alt="Photo boucherie">
-                </div>
-                <div class="repertoire-presentation">
-                    <h2>Primeur</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, temporibus neque commodi accusamus dolores corrupti quaerat recusandae, modi dolorum earum alias, corporis natus ab consectetur numquam maxime non! Inventore, ipsam!</p>
-                <div>
-            </section>
-            
         </section>
 
-
-
-        </section>
-
+		<?php
+			
+			}
+		
+		?>
       
 
     </main>
