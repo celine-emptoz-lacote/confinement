@@ -370,3 +370,35 @@ input[type="submit"] {
 .panier_total input {
     width: 20%;
 }
+
+/**** PAGE COMMERCANT ****/
+
+.page_commercant_h1 {
+    margin: 5% auto;
+}
+.page_commercant_section_produits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+
+.page_commercant_section_produits div {
+    width: 30%;
+}
+
+.page_commercant_section_produits div IMG{
+    width: 100%;
+}
+
+.page_commercant_section_produits div button {
+    width: 50%;
+    padding: 2%;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.page_commercant_section_produits div button:hover {
+    background: rgba(0, 0, 0, 0.507);
+    
+}
