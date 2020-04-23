@@ -15,7 +15,7 @@
 			<a href="profil.php">Profil</a>
 			<a href="repertoire_commercant.php">Commerce</a>
 			<a href="panier">Panier</a>
-			<a href="administration_commercant.php">Admin</a>
+			<a href="admin_commercant.php">Admin</a>
 			<a href="#">Se déconnecter</a>
 		</nav>
 	</header>
@@ -78,7 +78,7 @@
 			<a href="profil.php">Profil</a>
 			<a href="repertoire_commercant.php">Commerces</a>
 			<a href="panier.php">Panier</a>
-			<a href="administration_commercant.php">Admin</a>
+			<a href="admin_commercant.php">Admin</a>
 			<a href="#">Se déconnecter</a>
 		</nav>
 	</footer>
