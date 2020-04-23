@@ -91,7 +91,7 @@ $_SESSION['id_droit'] = '50';
                     <input type="text" id="" name="ville_siege" placeholder="Ville" value="<?php echo $data['ville_siege'] ?>" required> 
                 </div>
 
-                <input class="valider" type="submit" name="modif_profil_commercant" value="Modifier"></input>
+                <input class="valider" type="submit" name="modif_profil_commercant" value="Modifier"/>
             
         
 				<?php
@@ -104,32 +104,6 @@ $_SESSION['id_droit'] = '50';
 					}
 				?>
             </form>
-        </section >
-        <h1>Commandes clients<h1>
-        <section>
-            <table class="profil_table2">
-                <tbody>
-                <tr>
-                    <th>Commandes</th>
-                    <th>Adresse</th>
-                    <th>Date d'achat</th>
-                    <th>Prix total</th>
-                </tr>  
-                <tr>
-                    <td>1</td>     
-                    <td>Lorem</td>     
-                    <td>23/04/2020</td>     
-                    <td>€€€</td>
-                </tr>    
-                <tr>
-                    <td>2</td>     
-                    <td>lorem</td>     
-                    <td>22/04/2020</td>
-                    <td>€€€</td>
-                </tr> 
-            </tbody>   
-            </table>
-            
         </section>
     </main>
     
