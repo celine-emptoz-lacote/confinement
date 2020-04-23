@@ -398,3 +398,55 @@ input[type="submit"] {
     width: 70%;
     text-align: start;
 }
+/**Validation panier**/
+.main-validation{
+    width: 80%;
+    margin: auto;
+}
+.validation-panier{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+}
+.validation-title2{
+    width: 10%;
+}
+
+.validation-image{
+    width: 20%;
+}
+.validation-image img{
+    width: 100%;
+}
+.validation-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+.validation-address{
+    display: flex;
+    justify-content: space-around;
+}
+.validation-title{
+    width: 40%;
+}
+.customer-address, .pay{
+    width: 60%;
+}
+
+.customer-address ul{
+    list-style-type: none;
+}
+.customer-address a {
+    text-decoration: none;
+}
+.validation-pay{
+    display: flex;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+}
