@@ -6,12 +6,8 @@
     <title>Inscription particuliers</title>
     <link href="css/styles.css" rel="stylesheet">
 </head>
-<<<<<<< HEAD
 	
-<body>
-=======
 <body class="inscription-body">
->>>>>>> 2bf30a248bcbeddee9af7920a97c7826764ec3f4
     <header>
         <nav>
             <a href="index.php">Accueil</a>
@@ -47,10 +43,6 @@
                     <input type="number"  name="" placeholder=" Votre code postal" required pattern="/^(([0-8][0-9])|(9[0-5]))[0-9]{3}$/">
                     <input type="text"  name="" placeholder=" Votre ville" required>
                 </div>
-        
-                
-                
-
                 <input type="submit">
             </form>
         </div>
