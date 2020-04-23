@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le :  jeu. 23 avr. 2020 à 15:40
+-- Généré le :  jeu. 23 avr. 2020 à 16:54
 -- Version du serveur :  5.7.26
 -- Version de PHP :  7.4.2
 
@@ -145,7 +145,9 @@ CREATE TABLE `utilisateurs_commercants` (
   `code_postal_siege` float NOT NULL,
   `ville_siege` varchar(255) NOT NULL,
   `id_categorie` int(11) NOT NULL,
-  `id_droit` int(11) NOT NULL
+  `id_droit` int(11) NOT NULL,
+  `dossier_image` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
