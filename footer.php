@@ -1,4 +1,4 @@
-<nav>
+<nav class="nav_footer">
 	<a href="index.php">Accueil</a>
 	<?php
 		if(isset($_SESSION['id']))
