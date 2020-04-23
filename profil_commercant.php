@@ -1,8 +1,5 @@
 <?php
 	session_start();
-	
-$_SESSION['login'] = 'test';
-$_SESSION['password'] = 'test';
 $_SESSION['id'] = '1';
 $_SESSION['id_droit'] = '50';
 	
@@ -11,8 +8,6 @@ $_SESSION['id_droit'] = '50';
 	{
 		header('Location: index.php');
 	}
-	include('functions/function_profil.php');
-	$var = new profil;
 ?>
 
 <!DOCTYPE html>
