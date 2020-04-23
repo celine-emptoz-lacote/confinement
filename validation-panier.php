@@ -8,15 +8,15 @@
 </head>
 <body>
     <header>
-			<nav>
-				<a href="#">Accueil</a>
-				<a href="#">Profil</a>
-				<a href="#">Commerce</a>
-				<a href="#">Panier</a>
-				<a href="#">Admin</a>
-				<a href="#">Se déconnecter</a>
-			</nav>
-    </header>
+		<nav>
+			<a href="index.php">Accueil</a>
+			<a href="profil.php">Profil</a>
+			<a href="repertoire_commercant.php">Commerce</a>
+			<a href="panier">Panier</a>
+			<a href="administration_commercant.php">Admin</a>
+			<a href="#">Se déconnecter</a>
+		</nav>
+	</header>
     <main class="main-validation">
         <h1>Validation</h1>
         <section class="validation-panier">
@@ -64,13 +64,14 @@
 
     </main>
     
-	<footer>
+	
+    <footer>
 		<nav class="nav_footer">
-			<a href="#">Accueil</a>
-			<a href="#">Profil</a>
-			<a href="#">Commerces</a>
-			<a href="#">Panier</a>
-			<a href="#">Admin</a>
+			<a href="index.php">Accueil</a>
+			<a href="profil.php">Profil</a>
+			<a href="repertoire_commercant.php">Commerces</a>
+			<a href="panier.php">Panier</a>
+			<a href="administration_commercant.php">Admin</a>
 			<a href="#">Se déconnecter</a>
 		</nav>
 	</footer>
