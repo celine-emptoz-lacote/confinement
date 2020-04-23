@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription particuliers</title>
     <link href="css/styles.css" rel="stylesheet">
-<<<<<<< HEAD
-    
-=======
->>>>>>> 6059eb20442387712eab84e9408031bc9d18deb0
 </head>
+	
 <body>
     <header>
         <nav>
