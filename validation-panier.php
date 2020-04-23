@@ -27,8 +27,8 @@
                 <img src="src/images/viandes/boeuf1.JPG" alt="Photo produit">
             </div>
             <div class="validation-description">
-                <h2>Description</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, consequatur voluptatum aliquid mollitia nulla, sit dicta dolorum, alias in doloremque eos optio facilis maxime ex quo porro voluptatem hic inventore?</p>
+                <h2>Boeuf</h2>
+                <p>Quantité 2kg</p>
             </div>
             <p>30€</p>
 
