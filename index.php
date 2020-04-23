@@ -10,10 +10,10 @@
     
     <header>
         <nav>
-            <a href="#">Accueil</a>
-            <a href="#">Profil</a>
-            <a href="#">Commerce</a>
-            <a href="#">Panier</a>
+            <a href="index.php">Accueil</a>
+            <a href="profil.php">Profil</a>
+            <a href="repertoire_commercant.php">Commerce</a>
+            <a href="panier.php">Panier</a>
             <a href="#">Se déconnecter</a>
         </nav>
     </header>
@@ -46,17 +46,17 @@
                 <p class="p3">Textile</p>
             </div>
         </div>
-        <a href="#" class="offres_a">Acceder à la boutique</a>
+        <a href="repertoire_commercant.php" class="offres_a">Acceder à la boutique</a>
     </section>
     </main>
 
     <footer>
         <nav class="nav_footer">
-            <a href="#">Accueil</a>
-            <a href="#">Profil</a>
-            <a href="#">Commerces</a>
-            <a href="#">Panier</a>
-            <a href="#">Admin</a>
+            <a href="index.php">Accueil</a>
+            <a href="profil.php">Profil</a>
+            <a href="repertoire_commercant.php">Commerces</a>
+            <a href="panier.php">Panier</a>
+            <a href="admin_commercant.php">Admin</a>
             <a href="#">Se déconnecter</a>
         </nav>
     </footer>
