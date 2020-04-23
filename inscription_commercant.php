@@ -17,7 +17,7 @@
             <a href="#">Se déconnecter</a>
         </nav>
     </header>
-    <main>
+    <main class="main-pro-form">
 
         <section class="first-section"> 
             <section class="connect">

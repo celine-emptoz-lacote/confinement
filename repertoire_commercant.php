@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,23 +34,29 @@
         <h1>Commerces Alimentaire</h1>
         <section class="repertoire-shop">
             <section class="list-shop">
-                <img scr="src/images/images-boutiques/beef-1814638_1280.webp" alt="Photo boucherie">
-                <div>
+                <div class="repertoire-image">
+                    <img src="src/images/images-boutiques/beef-1814638_1280.webp" alt="Photo boucherie">
+                </div>
+                <div class="repertoire-presentation">
                     <h2>Boucherie Jacques</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, temporibus neque commodi accusamus dolores corrupti quaerat recusandae, modi dolorum earum alias, corporis natus ab consectetur numquam maxime non! Inventore, ipsam!</p>
                 <div>
             </section>
             <section class="list-shop">
-                <img scr="src/images/images-boutiques/beef-1814638_1280.webp" alt="Photo boucherie">
-                <div>
-                    <h2>Boucherie Jacques</h2>
+                <div class="repertoire-image">
+                    <img src="src/images/images-boutiques/Kaas.jpeg" alt="Photo boucherie">
+                </div>
+                <div class="repertoire-presentation">
+                    <h2>Fromagerie</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, temporibus neque commodi accusamus dolores corrupti quaerat recusandae, modi dolorum earum alias, corporis natus ab consectetur numquam maxime non! Inventore, ipsam!</p>
                 <div>
             </section>
             <section class="list-shop">
-                <img scr="src/images/images-boutiques/beef-1814638_1280.webp" alt="Photo boucherie">
-                <div>
-                    <h2>Boucherie Jacques</h2>
+                <div class="repertoire-image">
+                    <img src="src/images/images-boutiques/corbeille-de-fruits.jpg" alt="Photo boucherie">
+                </div>
+                <div class="repertoire-presentation">
+                    <h2>Primeur</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, temporibus neque commodi accusamus dolores corrupti quaerat recusandae, modi dolorum earum alias, corporis natus ab consectetur numquam maxime non! Inventore, ipsam!</p>
                 <div>
             </section>
@@ -75,3 +81,4 @@
             <a href="#">Se déconnecter</a>
         </nav>
     </footer>
+</html>

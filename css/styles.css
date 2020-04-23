@@ -63,7 +63,7 @@ header nav a:hover{
 .first-section{
     display: flex;
     justify-content: space-around;
-    
+    background: #eef2f3;
 }
 .connect{
     display: flex;
@@ -379,12 +379,22 @@ input[type="submit"] {
 }
 
 /**Répertoire commerçant**/
-
+.repertoire-shop{
+    width: 80%;
+    margin: auto;
+}
 .list-shop{
     display: flex;
 
-
+}
+.repertoire-image{
+    width:30%
 }
 .list-shop img{
-    
+    width: 100%;
+
+}
+.repertoire-presentation{
+    width: 70%;
+    text-align: start;
 }
