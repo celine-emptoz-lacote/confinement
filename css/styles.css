@@ -8,6 +8,23 @@
     box-sizing: border-box;
     
 }
+/*Scrollbar*/
+body::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: white;
+ }
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: whitesmoke;
+}
 body{
     margin: 0;
     padding: 0;
@@ -147,23 +164,87 @@ footer  {
 
 /****** PAGE CATEGORIE ******/
 
-h1{
+.category-head h1{
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
-
-.category{
+.category-head{
+    text-align: center;
+    height: 30vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    height: 50vh;
-    
-}
+    flex-direction: column;
+    justify-content: center;
 
-.shopkeeper{
-    padding: 2%;
+}
+.category-head p{
+    font-size: 1em;
+    margin: 0;
     
+    
+
+}
+.category-image{
+    width: 50%;
+    padding: 2%;
+    position: relative;
+}
+.category-description{
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+.category-description p{
+    text-align: start;
+}
+.category-description2{
+    width: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+.category-description2 p{
+    text-align: end;
+}
+.category-description a{
+    border: 1px solid black;
+    padding: 0.5em 1em ;
+    margin-top: 1em;
+    width: 40%;
+}
+.category-description2 a{
+    border: 1px solid black;
+    padding: 0.5em 1em ;
+    margin-top: 1em;
+    margin-left: auto;
+    width: 40%;
+}
+.shopkeeper{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
     margin: 1%;
+    width: 100%;
+}
+.shopkeeper2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 1%;
+    width: 100%;
+}
+.category-image p{
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    top:30%;
+    left: 30%;
+}
+.category-image img{
     width: 100%;
 }
 

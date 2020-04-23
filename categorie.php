@@ -18,24 +18,38 @@
         </nav>
     </header>
     <main>
-    <h1>Alimentaire</h1>
+        <section class="category-head">
+            <h1>Marseille'shop</h1>
+            <p>Boutique en ligne<p>
+        </section>
+   
         <section class="category">
             <section class="shopkeeper">
-                <img src="" alt="Photo commerçant">
+                <div class="category-image">
+                <img src="src/images/alimentaire.png" alt="Photo ">
+                <p class="p1">Alimentaire<p>
+                </div>
+                <div class="category-description">
+                <h3>Commerces Alimentaires</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia in accusamus magni quam porro illum id voluptatibus accusantium sint a repellat, consequatur molestiae dolorem ad nesciunt earum magnam? Laborum, animi!</p>
+                <a>Voir tout</a>
+                </div>
             </section>
-            <section class="shopkeeper">
-                <img src="" alt="Photo commerçant">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi cum ratione culpa quidem voluptatem, soluta amet iste vitae aut tempora repellat vero nulla molestiae consequuntur ducimus, porro nobis a rem.</p>
+        
+        </section>
+        <section class="category">
+            <section class="shopkeeper2">
+                <div class="category-image">
+                <img src="src/images/diy.png" alt="Photo ">
+                <p class="p1">Bricolage<p>
+                </div>
+                <div class="category-description2">
+                <h3>Boutiques de bricolage</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia in accusamus magni quam porro illum id voluptatibus accusantium sint a repellat, consequatur molestiae dolorem ad nesciunt earum magnam? Laborum, animi!</p>
+                <a>Voir tout</a>
+                </div>
             </section>
-            <section class="shopkeeper">
-                <img src="" alt="Photo commerçant">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, eaque praesentium. Nostrum eaque dolores natus voluptatum, asperiores tempora corporis modi harum voluptate nisi accusamus repellat nihil perspiciatis dolore, eius nesciunt!</p>
-            </section>
-            <section class="shopkeeper">
-                <img src="" alt="Photo commerçant">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus perferendis quasi quod voluptates inventore voluptatibus aspernatur natus, nobis autem quas ipsa quisquam pariatur minus est, nisi beatae cumque fugit!</p>
-            </section>
+        
         </section>
 
     </main>
