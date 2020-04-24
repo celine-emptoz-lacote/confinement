@@ -50,7 +50,7 @@
                 <div class="repertoire-presentation">
                     <h2><?php echo $articles[3]?></h2>
                     <p><?php echo $articles[18]?></p>
-                <div>
+                </div>
 					<br/>
 					<br/>
 					<a class="connexion-input" href="page_commercant.php?id=<?php echo $articles[0] ?>">Voir la boutique</a>
