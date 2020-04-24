@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+<<<<<<< HEAD
 			<nav>
 				<a href="#">Accueil</a>
 				<a href="#">Profil</a>
@@ -17,6 +18,17 @@
 				<a href="#">Se déconnecter</a>
 			</nav>
     </header>
+=======
+		<nav>
+			<a href="index.php">Accueil</a>
+			<a href="profil.php">Profil</a>
+			<a href="repertoire_commercant.php">Commerce</a>
+			<a href="panier">Panier</a>
+			<a href="administration_commercant.php">Admin</a>
+			<a href="#">Se déconnecter</a>
+		</nav>
+	</header>
+>>>>>>> Coralie
     <main class="main-validation">
         <h1>Validation</h1>
         <section class="validation-panier">
@@ -27,8 +39,13 @@
                 <img src="src/images/viandes/boeuf1.JPG" alt="Photo produit">
             </div>
             <div class="validation-description">
+<<<<<<< HEAD
                 <h2>Description</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, consequatur voluptatum aliquid mollitia nulla, sit dicta dolorum, alias in doloremque eos optio facilis maxime ex quo porro voluptatem hic inventore?</p>
+=======
+                <h2>Boeuf</h2>
+                <p>Quantité 2kg</p>
+>>>>>>> Coralie
             </div>
             <p>30€</p>
 
@@ -64,6 +81,7 @@
 
     </main>
     
+<<<<<<< HEAD
 	<footer>
 		<nav class="nav_footer">
 			<a href="#">Accueil</a>
@@ -71,6 +89,16 @@
 			<a href="#">Commerces</a>
 			<a href="#">Panier</a>
 			<a href="#">Admin</a>
+=======
+	
+    <footer>
+		<nav class="nav_footer">
+			<a href="index.php">Accueil</a>
+			<a href="profil.php">Profil</a>
+			<a href="repertoire_commercant.php">Commerces</a>
+			<a href="panier.php">Panier</a>
+			<a href="administration_commercant.php">Admin</a>
+>>>>>>> Coralie
 			<a href="#">Se déconnecter</a>
 		</nav>
 	</footer>

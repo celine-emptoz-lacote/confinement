@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+<?php
+	session_start();
+	$_SESSION['id'] = 2;
+	if(isset($_SESSION['id'])){}
+	else
+	{
+		header('Location: index.php');
+	}
+	include('functions/function_profil.php');
+	$var = new profil;
+?>
+>>>>>>> Coralie
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -34,6 +48,7 @@
                     <td>Photo</td>
                     <td>Prix</td>
                     <td>Stock restant</td>
+<<<<<<< HEAD
                     <td>Ajouter/Supprimer</td>
                 </tr>
             </thead>
@@ -52,6 +67,41 @@
                     <td>20</td>
                     <td> <button class="admin_add"></button> <button class="admin_delet"></button></td>
                 </tr>
+=======
+                    <td>Supprimer</td>
+                </tr>
+            </thead>
+            <tbody>
+				<?php
+					$connexion = mysqli_connect('localhost', 'root', '', 'confinement');
+					$requete = "SELECT * FROM produit WHERE id_commercant = ".$_SESSION['id']."";
+					$sql = mysqli_query($connexion, $requete);
+					while($data = mysqli_fetch_array($sql))
+					{
+				?>
+                <tr>
+                    <td><?php echo $data['nom']; ?></td>
+                    <td><img src="<?php echo $data['dossier_photo'], $data['photo']; ?>" alt="Boeuf"></td>
+                    <td><span class="panier_span"><?php echo $data['prix'], " €"; ?></span> le kilo</td>
+                    <td><?php echo $data['stock']; ?></td>
+                    <td>
+						<form method="post">
+							<input type="hidden" name="id_produit" value="<?php echo $data['id']; ?>"/>
+							<button name="suppr_produit" class="admin_delet"></button>
+						</form>
+					</td>
+                </tr>
+				<?php 
+					}
+					
+					if(isset($_POST['suppr_produit']))
+					{
+						$requete = "DELETE FROM produit WHERE id = ".$_POST['id_produit']."";
+						$sql = mysqli_query($connexion, $requete);
+						header('location: admin_commercant.php');
+					}
+				?>
+>>>>>>> Coralie
             </tbody>
         </table>
         <form class="admin_commercant_form" action="" method="POST">
