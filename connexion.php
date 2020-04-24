@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php
     require('libraries/User.php');
     $msg = '';
@@ -26,7 +24,6 @@
 
 ?>
 
->>>>>>> Coralie
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -38,30 +35,6 @@
 <body>
     
     <header>
-<<<<<<< HEAD
-        <nav>
-            <a href="index.php">Accueil</a>
-            <a href="profil.php">Profil</a>
-            <a href="repertoire_commercant.php">Commerce</a>
-            <a href="panier.php">Panier</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </header>
-    <main>
-        <div class="connexion_div">
-            <div>
-            <h1>Se connecter</h1>
-                <form class="connexion_form" action="">
-          
-                    <input class="connexion-input" type="text" name="" placeholder="Votre mail" required >
-                    <input class="connexion-input" type="password" name="" placeholder=" Mot de passe" required>
-                    <input class="connexion-input" type="submit">
-
-                </form>
-                <p class="connexion_p">Vous n'avez pas de compte ?</p>
-                <p class="connexion_p2">Vous etes un particulier <a href="inscription.php">Cliquer ici</a></p>
-                <p class="connexion_p2">Vous etes un particulier <a href="inscription_commercant.php">Cliquer ici</a></p>
-=======
 			<?php include('header.php'); ?>
 		</header>
 
@@ -92,7 +65,6 @@
                 <p class="connexion_p2">Vous êtes un particulier <a href="inscription.php">Cliquer ici</a></p>
                 <p class="connexion_p2">Vous êtes un professionnel <a href="inscription_commercant.php">Cliquer ici</a></p>
 
->>>>>>> Coralie
             </div>
            
             <img src="src/images/marseilleshop.png" alt="logo">
@@ -102,19 +74,7 @@
     </main>
 
     <footer>
-<<<<<<< HEAD
-    <nav class="nav_footer">
-            <a href="index.php">Accueil</a>
-            <a href="profil.php">Profil</a>
-            <a href="repertoire_commercant.php">Commerces</a>
-            <a href="panier.php">Panier</a>
-            <a href="admin_commercant.php">Admin</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </footer>
-=======
 			<?php include('footer.php'); ?>
 		</footer>
->>>>>>> Coralie
 </body>
 </html>

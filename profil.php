@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php
 	session_start();
 $_SESSION['id'] = '1';
@@ -10,7 +8,6 @@ $_SESSION['id_droit'] = '1';
 		header('Location: index.php');
 	}
 ?>
->>>>>>> Coralie
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -22,19 +19,9 @@ $_SESSION['id_droit'] = '1';
 <body>
     
     <header>
-<<<<<<< HEAD
-        <nav>
-            <a href="index.php">Accueil</a>
-            <a href="profil.php">Profil</a>
-            <a href="repertoire_commercant.php">Commerce</a>
-            <a href="panier.php">Panier</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-=======
 		<header>
 			<?php include('header.php'); ?>
 		</header>
->>>>>>> Coralie
     </header>
     <main>
         <div class="profil_main_header">
@@ -44,31 +31,6 @@ $_SESSION['id_droit'] = '1';
             </div>
             <img src="src/images/marseilleshop.png" alt="">
         </div>
-<<<<<<< HEAD
-        <section class="profil_section">
-            <h2>Modifier vos informations</h2>
-            <form action="" method="POST">
-                <div >
-                    <input type="text"  name="" placeholder=" Votre prénom" required>
-                    <input type="text"  name="" placeholder=" Votre nom" required>
-                </div>
-                <div> 
-                    <input type="email"  name="" placeholder=" Votre email" required>
-                    <input type="tel"  name="" placeholder=" 06XXXXXXXX">
-                </div>
-                <div>
-                    <input type="password" name="" placeholder=" Votre mot de passe" size = 15 pattern=".{6,}" title="Le mot de passe doit contenir au moins 6 caractères, 1 lettre, 1 chiffre, et 1 caractère spécial." required>
-                    <input type="password" name="" placeholder=" Confirmer votre mot de passe" size = 15 pattern=".{6,}" title="Le mot de passe doit contenir au moins 6 caractères, 1 lettre, 1 chiffre, et 1 caractère spécial." required>
-                </div>
-                <input type="text"  name="" placeholder=" Votre adresse" required>  
-                <div>
-                    <input type="number"  name="" placeholder=" Votre code postal" required pattern="/^(([0-8][0-9])|(9[0-5]))[0-9]{3}$/">
-                    <input type="text"  name="" placeholder=" Votre ville" required>
-                </div>
-                <input type="submit" value="Modifier">
-            </form>
-        </section>
-=======
 		
         <section class="profil_section">
 			<?php 
@@ -109,7 +71,6 @@ $_SESSION['id_droit'] = '1';
 			?>
         </section>
 		
->>>>>>> Coralie
         <section>
             <h1>Mes commandes</h1>
             <table class="profil_table">
@@ -119,26 +80,6 @@ $_SESSION['id_droit'] = '1';
                         <td>Addresse</td>
                         <td>Date D'achat</td>
                         <td>Prix total</td>
-<<<<<<< HEAD
-                        <td>Payement</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>234567789O</td>
-                        <td>Lorem ipsum dolor sit ame</td>
-                        <td>20/04/2020</td>
-                        <td>54€99</td>
-                        <td>Mastercard</td>
-                    </tr>
-                    <tr>
-                        <td>234567789O</td>
-                        <td>Lorem ipsum dolor sit ame</td>
-                        <td>23/04/2020</td>
-                        <td>154€99</td>
-                        <td>Paypal</td>
-                    </tr>
-=======
                         <td>Paiement</td>
                     </tr>
                 </thead>
@@ -158,7 +99,6 @@ $_SESSION['id_droit'] = '1';
                         <td><?php echo $data['paiement']; ?></td>
                     </tr>
 					<?php } ?>
->>>>>>> Coralie
                 </tbody>
             </table>
         </section>

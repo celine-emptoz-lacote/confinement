@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 <?php
 	session_start();
 ?>
->>>>>>> Coralie
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -15,22 +12,9 @@
 </head>
 <body id="index-body">
     
-<<<<<<< HEAD
-    <header>
-        <nav>
-            <a href="#">Accueil</a>
-            <a href="#">Profil</a>
-            <a href="#">Commerce</a>
-            <a href="#">Panier</a>
-            <a href="#">Admin</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </header>
-=======
 		<header>
 			<?php include('header.php'); ?>
 		</header>
->>>>>>> Coralie
     <main>
         <section class="first-section"> 
             <section class="connect">
@@ -43,44 +27,6 @@
             </section>
             
         </section>
-<<<<<<< HEAD
-        <h1>Commerces Alimentaire</h1>
-        <section class="repertoire-shop">
-            <section class="list-shop">
-                <div class="repertoire-image">
-                    <img src="src/images/images-boutiques/beef-1814638_1280.webp" alt="Photo boucherie">
-                </div>
-                <div class="repertoire-presentation">
-                    <h2>Boucherie Jacques</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, temporibus neque commodi accusamus dolores corrupti quaerat recusandae, modi dolorum earum alias, corporis natus ab consectetur numquam maxime non! Inventore, ipsam!</p>
-                <div>
-            </section>
-            <section class="list-shop">
-                <div class="repertoire-image">
-                    <img src="src/images/images-boutiques/Kaas.jpeg" alt="Photo boucherie">
-                </div>
-                <div class="repertoire-presentation">
-                    <h2>Fromagerie</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, temporibus neque commodi accusamus dolores corrupti quaerat recusandae, modi dolorum earum alias, corporis natus ab consectetur numquam maxime non! Inventore, ipsam!</p>
-                <div>
-            </section>
-            <section class="list-shop">
-                <div class="repertoire-image">
-                    <img src="src/images/images-boutiques/corbeille-de-fruits.jpg" alt="Photo boucherie">
-                </div>
-                <div class="repertoire-presentation">
-                    <h2>Primeur</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, temporibus neque commodi accusamus dolores corrupti quaerat recusandae, modi dolorum earum alias, corporis natus ab consectetur numquam maxime non! Inventore, ipsam!</p>
-                <div>
-            </section>
-            
-        </section>
-
-
-
-        </section>
-
-=======
 		<br/>
 		<br/>
 		<br/>
@@ -116,23 +62,10 @@
 			}
 		
 		?>
->>>>>>> Coralie
       
 
     </main>
 
-<<<<<<< HEAD
-    <footer>
-        <nav class="nav_footer">
-            <a href="#">Accueil</a>
-            <a href="#">Profil</a>
-            <a href="#">Commerces</a>
-            <a href="#">Panier</a>
-            <a href="#">Admin</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </footer>
-=======
     
 	<footer>
 		<nav class="nav_footer">
@@ -144,5 +77,4 @@
 			<a href="#">Se déconnecter</a>
 		</nav>
 	</footer>
->>>>>>> Coralie
 </html>

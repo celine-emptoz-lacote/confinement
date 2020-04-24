@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <?php
 	session_start();
 	$_SESSION['id'] = 2;
@@ -11,7 +9,6 @@
 	include('functions/function_profil.php');
 	$var = new profil;
 ?>
->>>>>>> Coralie
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -48,26 +45,6 @@
                     <td>Photo</td>
                     <td>Prix</td>
                     <td>Stock restant</td>
-<<<<<<< HEAD
-                    <td>Ajouter/Supprimer</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Le boeuf fermier "label rouge"</td>
-                    <td><img src="src/images/boeuf1.jpg" alt="Boeuf"></td>
-                    <td><span class="panier_span">30€</span>  le kilo</td>
-                    <td>20</td>
-                    <td> <button class="admin_add"></button> <button class="admin_delet"></button></td>
-                </tr>
-                <tr>
-                    <td>Le boeuf fermier "label rouge"</td>
-                    <td><img src="src/images/boeuf1.jpg" alt="Boeuf"></td>
-                    <td><span class="panier_span">30€</span>  le kilo</td>
-                    <td>20</td>
-                    <td> <button class="admin_add"></button> <button class="admin_delet"></button></td>
-                </tr>
-=======
                     <td>Supprimer</td>
                 </tr>
             </thead>
@@ -101,7 +78,6 @@
 						header('location: admin_commercant.php');
 					}
 				?>
->>>>>>> Coralie
             </tbody>
         </table>
         <form class="admin_commercant_form" action="" method="POST">

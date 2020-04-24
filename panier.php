@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-=======
 <?php
 	session_start();
 	$_SESSION['id'] = 1;
 ?>
 
->>>>>>> Coralie
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,21 +13,9 @@
 </head>
 <body>
     
-<<<<<<< HEAD
-    <header>
-        <nav>
-            <a href="index.php">Accueil</a>
-            <a href="profil.php">Profil</a>
-            <a href="repertoire_commercant.php">Commerce</a>
-            <a href="panier.php">Panier</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </header>
-=======
 	<header>
 		<?php include('header.php'); ?>
 	</header>
->>>>>>> Coralie
     <main>
         <section class="panier_section">
             <div>
@@ -40,17 +25,6 @@
             <img src="src/images/marseilleshop.png" alt="">
         </section>
 
-<<<<<<< HEAD
-        <section >
-            <div class="panier_article">
-                <img src="src/images/boeuf1.jpg" alt="Morceau de boeuf">
-                <div>
-                    <h2>Le boeuf charolais fermier "label rouge"</h2>
-                    <p> <em><span class="panier_span"> 30€ </span> par kilo </em></p>
-                    <div class="panier_buttons">
-                        <button>-</button>
-                        <p>0</p>
-=======
         <section>
 		<?php
 			
@@ -76,24 +50,18 @@
                     <div class="panier_buttons">
                         <button>-</button>
                         <p>1</p>
->>>>>>> Coralie
                         <button>+</button>
                     </div>
                     <input type="submit" value="Supprimer l'article">
                 </div>
             </div>   
         </section>
-<<<<<<< HEAD
-        <section class="panier_total">
-            <p>Prix total : <span class="panier_span">30€</span></p>
-=======
 		 <?php
 				}
 			}
 		?>
 		
         <section class="panier_total">
->>>>>>> Coralie
             <input type="submit" value="Valider le panier">
         </section>
     </main>

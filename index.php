@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 <?php session_start(); ?>
->>>>>>> Coralie
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -13,18 +10,7 @@
 
 	<body id="index-body">
 		<header>
-<<<<<<< HEAD
-			<nav>
-				<a href="#">Accueil</a>
-				<a href="#">Profil</a>
-				<a href="#">Commerce</a>
-				<a href="#">Panier</a>
-				<a href="#">Admin</a>
-				<a href="#">Se déconnecter</a>
-			</nav>
-=======
 			<?php include('header.php'); ?>
->>>>>>> Coralie
 		</header>
 		
 		<main>
@@ -60,18 +46,7 @@
 		</main>
 
 		<footer>
-<<<<<<< HEAD
-			<nav class="nav_footer">
-				<a href="#">Accueil</a>
-				<a href="#">Profil</a>
-				<a href="#">Commerces</a>
-				<a href="#">Panier</a>
-				<a href="#">Admin</a>
-				<a href="#">Se déconnecter</a>
-			</nav>
-=======
 			<?php include('footer.php'); ?>
->>>>>>> Coralie
 		</footer>
 	</body>
 </html>
