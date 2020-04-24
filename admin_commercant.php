@@ -1,6 +1,6 @@
 <?php
 	session_start();
-$_SESSION['id'] = '1';
+$_SESSION['id'] = '2';
 $_SESSION['id_droit'] = '50';
 	
 	if(isset($_SESSION['login']) || isset($_SESSION['password'])){}
