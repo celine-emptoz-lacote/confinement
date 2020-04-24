@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	$_SESSION['id'] = 1;
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +29,7 @@
 		<?php
 			
 			$connexion = mysqli_connect('localhost','root','','confinement');
-			$panier = "SELECT *  FROM panier WHERE id='".$_SESSION['id']."'";
+			$panier = "SELECT *  FROM panier WHERE id_utilisateur='".$_SESSION['id']."'";
 			$reg = mysqli_query($connexion, $panier);
 			$resultat = mysqli_fetch_all($reg);
 		
@@ -48,21 +49,21 @@
                     <p> <em><span class="panier_span"><?php echo $articles2[3]?>€ </span> par kilo </em></p>
                     <div class="panier_buttons">
                         <button>-</button>
-                        <p>0</p>
+                        <p>1</p>
                         <button>+</button>
                     </div>
                     <input type="submit" value="Supprimer l'article">
                 </div>
             </div>   
         </section>
-        <section class="panier_total">
-            <p>Prix total : <span class="panier_span"><?php echo $articles2[3]?>€</span></p>
-            <input type="submit" value="Valider le panier">
-        </section>
 		 <?php
 				}
 			}
 		?>
+		
+        <section class="panier_total">
+            <input type="submit" value="Valider le panier">
+        </section>
     </main>
 
     <footer>

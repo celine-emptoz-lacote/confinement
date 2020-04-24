@@ -1,9 +1,7 @@
 <?php
 	session_start();
-$_SESSION['id'] = '2';
-$_SESSION['id_droit'] = '50';
-	
-	if(isset($_SESSION['login']) || isset($_SESSION['password'])){}
+	$_SESSION['id'] = 2;
+	if(isset($_SESSION['id'])){}
 	else
 	{
 		header('Location: index.php');
@@ -19,61 +17,6 @@ $_SESSION['id_droit'] = '50';
     <link rel="stylesheet" href="src/font/fontello/css/fontello.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Page commerçant</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/0.3.6/ScrollTrigger.min.js"></script>
-	<script>
-		function createJauge(elem) {
-		  if (elem) {
-			while (elem.firstChild) {
-			  elem.removeChild(elem.firstChild);
-			}
-
-			var oMask  = document.createElement('DIV');
-			var oBarre = document.createElement('DIV');
-			var oSup50 = document.createElement('DIV');
-
-			oMask.className  = 'progress-masque';
-			oBarre.className = 'progress-barre';
-			oSup50.className = 'progress-sup50';
-
-			oMask.appendChild(oBarre);
-			oMask.appendChild(oSup50);
-			elem.appendChild(oMask);
-		  }
-		  return elem;
-		}
-
-		document.addEventListener('DOMContentLoaded', function() {
-			var oJauges = document.querySelectorAll('.progress-circle');
-			var i, nb = oJauges.length;
-			for( i=0; i < nb; i +=1){
-			  createJauge(oJauges[i]);
-			}
-		});
-
-		function initJauge(elem) {
-		  var oBarre;
-		  var angle;
-		  var valeur;
-
-		  createJauge( elem);
-		  oBarre = elem.querySelector('.progress-barre');
-		  valeur = elem.getAttribute('data-value');
-		  valeur = valeur ? valeur * 1 : 0;
-		  elem.setAttribute('data-value', valeur.toFixed(1));
-		  angle = 360 * valeur / 100;
-		  if (oBarre) {
-			oBarre.style.transform = 'rotate(' + angle + 'deg)';
-		  }
-		}
-
-		document.addEventListener('DOMContentLoaded', function () {
-		  var oJauges = document.querySelectorAll('.progress-circle');
-		  var i, nb = oJauges.length;
-		  for (i = 0; i < nb; i += 1) {
-			initJauge(oJauges[i]);
-		  }
-		});
-	</script>
 </head>
 <body>
     

@@ -30,7 +30,7 @@ class User{
         }
     }
 
-    public function registerc($prenom, $nom, $raison_social, $telephone, $siret, $mail, $id_categorie, $password, $cpassword, $adresse_magasin, $code_postal_magasin, $ville_magasin, $adresse_siege, $code_postal_siege, $ville_siege){
+    public function registerc($prenom, $nom, $raison_social, $telephone, $siret, $mail, $id_categorie, $password, $cpassword, $adresse_magasin, $code_postal_magasin, $ville_magasin, $adresse_siege, $code_postal_siege, $ville_siege, $tmp_file, $type_file, $name_file, $description){
         $msg = '';
 
         if($password == $cpassword){
@@ -41,10 +41,13 @@ class User{
             $checkmail = $requete->rowCount();
 
             if($checkmail == 0){
+				$content_dir = "src/images/";
+				move_uploaded_file($tmp_file, $content_dir . $name_file);
 
                 $password = password_hash($password, PASSWORD_BCRYPT);
-                $requete = $db->prepare("INSERT INTO utilisateurs_commercants (prenom, nom, raison_social, téléphone, siret, mail, id_categorie, password, adresse_magasin, code_postal_magasin, ville_magasin, adresse_siege, code_postal_siege, ville_siege, id_droit) VALUES ('$prenom', '$nom', '$raison_social', '$telephone', '$siret', '$mail','$id_categorie', '$password', '$adresse_magasin', '$code_postal_magasin', '$ville_magasin', '$adresse_siege', '$code_postal_siege', '$ville_siege','2')");
+                $requete = $db->prepare("INSERT INTO utilisateurs_commercants (prenom, nom, raison_social, téléphone, siret, mail, id_categorie, password, adresse_magasin, code_postal_magasin, ville_magasin, adresse_siege, code_postal_siege, ville_siege, id_droit, dossier_image, image, description) VALUES ('$prenom', '$nom', '$raison_social', '$telephone', '$siret', '$mail','$id_categorie', '$password', '$adresse_magasin', '$code_postal_magasin', '$ville_magasin', '$adresse_siege', '$code_postal_siege', '$ville_siege','50', '$content_dir', '$name_file', '$description')");
                 $requete->execute();
+                header('Location: connexion.php');
             }
             else{
 

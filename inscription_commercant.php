@@ -9,9 +9,8 @@
             if(strlen($_POST['password']) >= 6){
 
                 $user = new User;
-                $msg = $user->registerc($_POST['prenom'], $_POST['nom'], $_POST['raison_social'], $_POST['telephone'], $_POST['siret'], $_POST['mail'], $_POST['id_categorie'], $_POST['password'], $_POST['cpassword'], $_POST['adresse_magasin'], $_POST['code_postal_magasin'], $_POST['ville_magasin'], $_POST['adresse_siege'], $_POST['code_postal_siege'], $_POST['ville_siege']);
+                $msg = $user->registerc($_POST['prenom'], $_POST['nom'], $_POST['raison_social'], $_POST['telephone'], $_POST['siret'], $_POST['mail'], $_POST['id_categorie'], $_POST['password'], $_POST['cpassword'], $_POST['adresse_magasin'], $_POST['code_postal_magasin'], $_POST['ville_magasin'], $_POST['adresse_siege'], $_POST['code_postal_siege'], $_POST['ville_siege'], $_FILES['image']['tmp_name'], $_FILES['image']['type'], $_FILES['image']['name'], $_POST['description']);
                 $user = null;
-                // header('Location: connexion.php');
             }
             else{
                 $msg = "Votre mot de passe doit contenir au moins 6 caractères";
@@ -34,29 +33,22 @@
 </head>
 <body class="body-pro-form">
     <header>
-		<nav>
-			<a href="index.php">Accueil</a>
-			<a href="profil.php">Profil</a>
-			<a href="repertoire_commercant.php">Commerce</a>
-			<a href="panier">Panier</a>
-			<a href="admin_commercant.php">Admin</a>
-			<a href="#">Se déconnecter</a>
-		</nav>
-	</header>
+			<?php include('header.php'); ?>
+		</header>
     <main class="main-pro-form">
 
         <section class="first-section"> 
             <section class="connect">
                 <h1>Inscription Professionnel</h1>
 
-                <form method="POST" class="pro-form">
+                <form method="POST" class="pro-form" enctype="multipart/form-data">
                     <div>
                         <input  type="text" name="nom" id="" placeholder="Nom" required>
                         <input type="text" name="prenom" id="" placeholder="Prénom" required>
                     </div>
             
                     <input  type="text" name="raison_social" id="" placeholder="Raison Sociale" required>
-            
+            		<input type="text" name="description" placeholder="Description" required/>
                     <div>
                     <input type="tel" id="" name="telephone" placeholder="Votre Téléphone" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" placeholder="06-XX-XX-XX-XX" >
                     <input type="number" id="" name="siret" placeholder="N° de SIRET">
@@ -73,6 +65,7 @@
                         </select>
 
                     </div>
+					<input type="file" name="image" accept="image/png, image/jpeg, image/jpg" required/>
                     <div>
                         <input  type="password" name="password" id="" placeholder="Mot de passe" required>
                         <input type="password" name="cpassword" id="" placeholder="Confirmation de mot de passe" required>
@@ -109,14 +102,7 @@
     </main>
    
 	<footer>
-		<nav class="nav_footer">
-			<a href="index.php">Accueil</a>
-			<a href="profil.php">Profil</a>
-			<a href="repertoire_commercant.php">Commerces</a>
-			<a href="panier.php">Panier</a>
-			<a href="admin_commercant.php">Admin</a>
-			<a href="#">Se déconnecter</a>
-		</nav>
-	</footer>
+			<?php include('footer.php'); ?>
+		</footer>
 </body>
 </html>

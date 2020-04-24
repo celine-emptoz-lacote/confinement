@@ -8,10 +8,7 @@
 	
 		echo '<a href="repertoire_commercant.php">Commerce</a>';
 	
-		if(isset($_SESSION['id']) && $_SESSION['id_droit'] == 50)
-		{
-			echo '<a href="admin_commercant.php">Admin Commerçant</a>';
-		}
+		
 	
 		if(isset($_SESSION['id']))
 		{

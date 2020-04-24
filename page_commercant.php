@@ -54,7 +54,7 @@
                 <p><?php echo $articles2[2]; ?></p>
                 <p><em><span class="panier_span"><?php echo $articles2[3], " €"; ?></span> par kilo</em></p>
 				<form method="post">
-					<input type="hidden" name="id" value="<?php echo $_GET['id']; ?>"/>
+					<input type="hidden" name="id" value="<?php echo $articles2[0]; ?>"/>
 				   <input class="connexion-input" type="submit" name="submit" value="Ajouter au panier"/>
 				</form>
 				<br/>
@@ -69,6 +69,7 @@
 					{	
 						$requete = "INSERT INTO panier (id_utilisateur, id_produit) VALUES (".$_SESSION['id'].",".$_POST["id"].")";
 						$query = mysqli_query($connexion, $requete);
+						header('location: panier.php');
 					}
 				
 			?>

@@ -37,14 +37,8 @@
 	
 <body class="inscription-body">
     <header>
-        <nav>
-            <a href="index.php">Accueil</a>
-            <a href="profil.php">Profil</a>
-            <a href="repertoire_commercant.php">Commerce</a>
-            <a href="panier.php">Panier</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </header>
+			<?php include('header.php'); ?>
+		</header>
 
     <main class="inscription-main">
 
@@ -82,14 +76,7 @@
         <img src="src/images/marseilleshop.png" alt="logo">
     </main>
     <footer>
-    <nav class="nav_footer">
-            <a href="index.php">Accueil</a>
-            <a href="profil.php">Profil</a>
-            <a href="repertoire_commercant.php">Commerces</a>
-            <a href="panier.php">Panier</a>
-            <a href="admin_commercant.php">Admin</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </footer>
+			<?php include('footer.php'); ?>
+		</footer>
 </body>
 </html>

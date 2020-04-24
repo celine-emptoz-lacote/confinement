@@ -2,7 +2,7 @@
 	session_start();
 $_SESSION['id'] = '1';
 $_SESSION['id_droit'] = '1';
-	if(isset($_SESSION['login']) || isset($_SESSION['password'])){}
+	if(isset($_SESSION['id'])){}
 	else
 	{
 		header('Location: index.php');

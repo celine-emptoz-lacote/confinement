@@ -8,7 +8,9 @@
         if($_POST['mail'] != '' && $_POST['password'] != ''){
             $error = $user->login($_POST['mail'], $_POST['password']);
             if($error == false){
+				session_start();
                 $_SESSION['user'] = $user;
+				var_dump($user);
                 header('Location: profil.php');
             }
             else{
@@ -33,14 +35,8 @@
 <body>
     
     <header>
-        <nav>
-            <a href="index.php">Accueil</a>
-            <a href="profil.php">Profil</a>
-            <a href="repertoire_commercant.php">Commerce</a>
-            <a href="panier.php">Panier</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </header>
+			<?php include('header.php'); ?>
+		</header>
 
     <main>
 
@@ -78,14 +74,7 @@
     </main>
 
     <footer>
-    <nav class="nav_footer">
-            <a href="index.php">Accueil</a>
-            <a href="profil.php">Profil</a>
-            <a href="repertoire_commercant.php">Commerces</a>
-            <a href="panier.php">Panier</a>
-            <a href="admin_commercant.php">Admin</a>
-            <a href="#">Se déconnecter</a>
-        </nav>
-    </footer>
+			<?php include('footer.php'); ?>
+		</footer>
 </body>
 </html>

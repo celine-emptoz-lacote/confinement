@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -45,14 +46,7 @@
 		</main>
 
 		<footer>
-			<nav class="nav_footer">
-				<a href="index.php">Accueil</a>
-				<a href="profil.php">Profil</a>
-				<a href="repertoire_commercant.php">Commerces</a>
-				<a href="panier.php">Panier</a>
-				<a href="admin_commercant.php">Admin</a>
-				<a href="#">Se déconnecter</a>
-			</nav>
+			<?php include('footer.php'); ?>
 		</footer>
 	</body>
 </html>
